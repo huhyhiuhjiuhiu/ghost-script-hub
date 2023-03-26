@@ -75,3 +75,4 @@ Content = <string> - The content of the notification.
 Image = <string> - The icon of the notification.
 Time = <number> - The duration of the notfication.
 ]]
+
