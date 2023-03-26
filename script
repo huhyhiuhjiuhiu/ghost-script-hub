@@ -1,0 +1,41 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ghostys Script Hub", "Synapse")
+--main--
+local tab = Window:NewTab("main")
+
+local section = tab:NewSection("[DIMENSION 6 👹] Anime Fighting Simulator")
+
+local section1 = tab:NewSection("Your Bizarre Adventure")
+
+local section2 = tab:NewSection("any game")
+
+local section3 = tab:NewSection("blox fruits")
+
+section:NewButton("Solo Hub", "Runs Solo Hub Ghostys Fav Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/M4tr1x01/luascripts/main/solohub.lua"))()
+end)
+
+section2:NewButton("dark dex", "runs dark dex the explorer", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+end)
+
+section:NewButton("infinite gold", "runs a script that gives infinite money fast", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/animefightingsimulator"))()
+end)
+
+section3:NewButton("hoho hub", "runs hoho hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+
+section:NewButton("Unfair Hub", "runs unfair hub this supports alot of games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+end)
+
+section1:NewButton("Unfair Hub", "runs unfair hub this supports alot of games", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+end)
+
+section:NewButton("chakra gain [will lag for abit before giving chakra]", "fater chakra gain", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+end)
